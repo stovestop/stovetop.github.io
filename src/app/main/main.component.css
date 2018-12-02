@@ -1,0 +1,23 @@
+mat-divider {
+    margin-bottom: 0px;
+}
+
+#current-work {
+    position: relative;
+    color: #353535;
+}
+
+#past-games {
+    /* float: left; */
+    overflow: auto;
+    margin-bottom: 100px;
+}
+
+#devs {
+    overflow: auto;
+}
+
+#current-work, #past-games, #devs, #contact-card {
+    width: 96%;
+    margin: 0 auto;
+}

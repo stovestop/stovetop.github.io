@@ -1,0 +1,37 @@
+.game-actions {
+    position: absolute;
+    bottom: 10px;
+}
+
+.game-actions button {
+    margin-right: 10px;
+}
+.game-info {
+    margin: 20px 0 0 20px;
+    float: left;
+    max-width: 40%;
+}
+.game-card {
+    overflow: auto;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+mat-card-title {
+    font-size: 32px;
+}
+mat-card-subtitle {
+    font-size: 18x;
+}
+
+mat-card-content {
+    font-size: 20px;
+}
+
+img {
+    float: left;
+    width: 550px;
+    height: 350px;
+    margin: 0;
+    border-top-right-radius: 0;
+}

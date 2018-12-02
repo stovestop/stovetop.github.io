@@ -1,0 +1,20 @@
+<app-banner [isTitleCenter] = "true" title = "Snakeybus"></app-banner>
+<app-section-head tag = "WORK IN PROGRESS"></app-section-head>
+<div class = "container">
+    <mat-card id = "play-test" >
+        <div class = "left" [@fadeIn]="isShow ? 'show' : ''" [@moveUp]="isShow ? 'show' : ''">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elementum nec urna quis condimentum. Nullam nunc enim, imperdiet a dignissim a, sollicitudin et ex. Quisque ullamcorper pulvinar rhoncus. Ut non ante venenatis, euismod lorem ut, pellentesque justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus accumsan neque, eget mollis tortor tincidunt sed. Quisque laoreet dignissim dolor eget porttitor. Nunc non velit et est accumsan dictum quis feugiat leo. Vivamus et elit lorem. Vivamus arcu orci, sagittis ac ex at, pellentesque dictum libero. Vivamus convallis ipsum sem, non rutrum ante eleifend et. Praesent nec tristique erat, ac porta sapien. Phasellus at velit id nibh condimentum volutpat ut at magna
+        </div>
+        <div class = "right">
+            <h2>PLAY TEST</h2>
+            <p>
+                Interested in helping out? Join the community on discord!
+            </p>
+            <div id = "discord"></div>
+        </div>
+    </mat-card>
+</div>
+<app-section-head tag = "SCREENSHOTS"></app-section-head>
+<div class = "container">
+    <app-gallery [basePath] = "imageBasePath" [images] = "images"></app-gallery>
+</div>

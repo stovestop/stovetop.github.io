@@ -1,0 +1,44 @@
+.container {
+    margin: 0 auto;
+    width: 96%;
+}
+
+#play-test {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #2C2F33;
+    overflow: auto;
+    padding: 5%;
+}
+
+
+#play-test h2 {
+    color: #7289DA;
+}
+
+.right {
+    text-align: right;
+    float: right;
+    width: 45%;
+}
+
+.left {
+    width: 45%;
+    float: left;
+}
+#discord {
+    background-image: url("/assets/images/discord-logo.png");
+    width: 400px;
+    height: 150px;
+    background-color: #7289DA;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#discord:hover {
+    background-color: #5667a3;
+    cursor: pointer;
+}
