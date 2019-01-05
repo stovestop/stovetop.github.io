@@ -1,0 +1,48 @@
+mat-card {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    float: left;
+    margin-right: 20px;
+    width: 25%;
+    min-width: 300px;
+    margin-top: 20px
+}
+
+.card-image {
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.microwave {
+    background-image: url("/assets/images/microwave_1.jpg");
+}
+
+.orbital {
+    background-image: url("/assets/images/orbital_1.gif");
+}
+
+.spaceship {
+    background-image: url("/assets/images/spaceship.jpg");
+}
+
+.nightfall {
+    background-image: url("/assets/images/nightfall.png");
+}
+
+.card button {
+    margin: 0 20px 10px 20px;
+}
+
+mat-card-actions {
+    text-align: right;
+}
+/* mat-card-header {
+    position: absolute;
+    top: 14;
+    color: white;
+} */

@@ -1,0 +1,21 @@
+mat-card {
+    /* overflow: hidden; */
+    max-width: 300px;
+    padding: 0;
+    float: left;
+    margin-right: 20px;
+    width: 25%;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.headshot {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("http://chittagongit.com//images/chef-icon-free/chef-icon-free-14.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+
+}

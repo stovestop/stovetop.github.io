@@ -1,0 +1,9 @@
+p {
+    font-size: 22px;
+    line-height: 44px;
+    margin-top: 0;
+}
+
+mat-card {
+    margin-bottom: 40px;
+}

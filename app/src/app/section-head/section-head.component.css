@@ -1,0 +1,17 @@
+.section-tag {
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    /* color: #353535; */
+    text-align: center;
+    background-color: #353535;
+    /* background-color: #673ab7; */
+    font-size: 14px;
+
+}
+
+.section-title {
+    width: 96%;
+    margin: 50px auto 80px auto;
+}
