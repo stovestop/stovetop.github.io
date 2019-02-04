@@ -357,8 +357,6 @@ MIT
 
 @angular/material/button
 
-@angular/material/divider
-
 @angular/material/card
 
 @angular/forms
